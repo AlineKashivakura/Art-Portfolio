@@ -1,0 +1,29 @@
+.main-header {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  margin: 12px;
+}
+
+.main-header .navigation-menu {
+  display: flex;
+  width: 95%;
+  justify-content: flex-end;
+}
+
+.main-header .navigation-menu ul {
+  width: 150px;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.main-header .navigation-menu li {
+  list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+  .main-header .navigation-menu ul {
+    width: 230px;
+  }  
+}
+
